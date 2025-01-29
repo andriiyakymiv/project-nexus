@@ -31,6 +31,7 @@
   max-width: 335px;
 }
 .rent-form-field {
+  outline: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
   background-color: transparent;
   border-radius: 12px;
@@ -56,6 +57,7 @@
   color: rgba(251, 251, 251, 0.4);
 }
 .rent-form-comment {
+  outline: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 14px 18px;
