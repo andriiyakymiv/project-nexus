@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
+  <title>YachtJet</title>
   <link rel="shortcut icon" href="/project-nexus/assets/favicon-DSN1VInn.png" type="image/svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" href="./mobile-menu.js"></script>
+
+  <script type="module" crossorigin src="/project-nexus/index.js"></script>
   <link rel="stylesheet" crossorigin href="/project-nexus/assets/index-JwJAdKH9.css">
 </head>
 
@@ -28,10 +31,10 @@
                 <li class="header-li"><a class="header-link" href="reviews.html">REVIEWS</a></li>
             </ul>
         </nav>
-        <button class="menu-btn js-menu-btn" type="button" aria-label="Open menu button" js-open-menu >
+        <button class="menu-btn js-open-menu" type="button" aria-label="Open menu button" aria-expanded="false">
             <svg class="menu-icon" width="28" height="28">
                 <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-menu"></use>
-              </svg>
+            </svg>
         </button>
         <ul class="header-social-list">
             <li>
@@ -41,7 +44,7 @@
                     </svg>
                 </a>
             </li>
-            
+
             <li>
                 <a href="https://www.youtube.com/c/GoIT">
                     <svg class="socials-icon" width="24" height="24">
@@ -59,47 +62,52 @@
         </ul>
     </div>
 
-    <div class="mobile-menu" js-menu-container>
+    <!-- Mobile Menu -->
+
+    <div class="mobile-menu js-menu-container">
         <div class="container menu-container">
             <div class="container header-container">
-            <nav class="header-nav">
-                <a class="logo-header" href="index.html">yachjet</a>
-            </nav>
-            <button class="mobile-menu-close" js-close-menu><svg width="28" height="28" class="close-btn-icon"><use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-close"></use></svg></button>
+                <nav class="header-nav">
+                    <a class="logo-header" href="index.html">yachjet</a>
+                </nav>
+                <button class="mobile-menu-close js-close-menu"><svg width="28" height="28" class="close-btn-icon">
+                        <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-close"></use>
+                    </svg></button>
             </div>
             <div class="menu-links">
-            <nav class="mobile-menu-nav">
-                <ul class="mobile-list-menu">
-                    <li class="header-li"><a class="header-link" href="./about.html">ABOUT</a></li>
-                    <li class="header-li"><a class="header-link" href="./our-yachts.html">YACHTS</a></li>
-                    <li class="header-li"><a class="header-link" href="./reviews.html">REVIEWS</a></li>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-list-menu">
+                        <li class="header-li"><a class="header-link" href="./about.html">ABOUT</a></li>
+                        <li class="header-li"><a class="header-link" href="./our-yachts.html">YACHTS</a></li>
+                        <li class="header-li"><a class="header-link" href="./reviews.html">REVIEWS</a></li>
+                    </ul>
+                </nav>
+                <ul class="menu-social">
+                    <li>
+                        <a href="https://www.instagram.com/goitclub/">
+                            <svg class="menu-socials-icon" width="24" height="24">
+                                <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/GoIT">
+                            <svg class="menu-socials-icon" width="24" height="24">
+                                <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/goITclub/">
+                            <svg class="menu-socials-icon" width="24" height="24">
+                                <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-            <ul class="menu-social">
-                <li>
-                    <a href="https://www.instagram.com/goitclub/">
-                        <svg class="menu-socials-icon" width="24" height="24">
-                            <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/c/GoIT">
-                        <svg class="menu-socials-icon" width="24" height="24">
-                            <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-youtube"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/goITclub/">
-                        <svg class="menu-socials-icon" width="24" height="24">
-                            <use href="/project-nexus/assets/icons-DxfTGxg-.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-         </div>
-    </div>
+            </div>
+        </div>
+
 </header>
   <main>
     <!-- Loads the specified .html file -->
@@ -223,6 +231,6 @@
         </div>
     </div>
 </footer>
-  <script href="./js/mobile-menu.js"></script>
 </body>
+
 </html>
