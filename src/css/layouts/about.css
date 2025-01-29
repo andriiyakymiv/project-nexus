@@ -1,0 +1,122 @@
+/* =============== About-us-section =============== */
+
+/* =============== mobile-styles =============== */
+
+.about-us-container {
+  max-width: 335px;
+  height: 675px;
+  border-radius: 24px;
+  background-color: #fbfbfb;
+}
+
+.about-us-wrapper {
+  padding: 40px 20px 0 20px;
+}
+
+.about-us-img {
+  border-radius: 24px;
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+}
+
+.about-us-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+/* =============== /mobile-styles =============== */
+
+/* =============== tablet-styles =============== */
+
+@media screen and (min-width: 768px) {
+  .about-us-container {
+    max-width: 704px;
+  }
+
+  .about-us-wrapper {
+    padding: 50px 32px 0 32px;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+    max-width: 536px;
+    margin-bottom: 50px;
+  }
+
+  .about-us-subtitle {
+    font-size: 23px;
+    max-width: 389px;
+  }
+
+  .about-us-text {
+    font-size: 13px;
+    line-height: 1.15;
+    max-width: 389px;
+    margin-bottom: 50px;
+  }
+}
+
+/* =============== /tablet-styles =============== */
+
+/* =============== desctop-1280px-styles =============== */
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1180px;
+    overflow: hidden;
+  }
+
+  .about-us-wrapper {
+    padding: 50px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-us-title {
+    max-width: 537px;
+  }
+
+  .about-us-subtitle {
+    max-width: 354px;
+  }
+
+  .about-us-text {
+    max-width: 354px;
+    margin-bottom: 100px;
+  }
+}
+
+/* =============== /desctop-1280px-styles =============== */
+
+/* =============== desctop-1440px-styles =============== */
+
+@media screen and (min-width: 1440px) {
+  .about-us-container {
+    max-width: 1340px;
+  }
+}
+
+/* =============== /desctop-1440px-styles =============== */
+
+/* =============== /About-us-section =============== */
