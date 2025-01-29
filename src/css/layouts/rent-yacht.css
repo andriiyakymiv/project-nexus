@@ -82,6 +82,7 @@
   }
   .image-form-wrapper {
     row-gap: 100px;
+    align-items: center;
   }
   .rent-yacht-title {
     font-size: 48px;
@@ -98,6 +99,8 @@
   }
   .rent-form-field {
     height: 54px;
+
+    width: 473px;
   }
   .rent-form-comment {
     height: 116px;
@@ -122,6 +125,9 @@
   }
   .form-btn-container {
     order: 0;
+  }
+  .rent-form-field {
+    width: 472px;
   }
   .yacht-rent-photo {
     max-width: 658px;
