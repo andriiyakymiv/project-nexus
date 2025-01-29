@@ -37,11 +37,22 @@
   padding: 14px 14px 18px;
   width: 100%;
   height: 42px;
+  color: #fbfbfb;
+}
+.rent-form-field:hover,
+.rent-form-field:focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  border-radius: 12px;
+  padding: 18px 18px 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
 }
 .rent-form-field::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.16;
   color: rgba(251, 251, 251, 0.4);
 }
 .rent-form-comment {
@@ -51,12 +62,24 @@
   width: 100%;
   height: 108px;
   background-color: transparent;
+  color: #fbfbfb;
 }
+
 .rent-form-comment::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.16;
   color: rgba(251, 251, 251, 0.4);
+}
+.rent-form-comment:hover,
+.rent-form-comment:focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  border-radius: 12px;
+  padding: 18px 18px 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
 }
 .send-form-btn {
   border: none;
@@ -71,6 +94,12 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   margin-top: 40px;
+  cursor: pointer;
+}
+.send-form-btn:hover,
+.send-form-btn:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
 }
 /* ======mobile-styles-end====== */
 
