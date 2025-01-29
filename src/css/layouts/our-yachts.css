@@ -20,25 +20,27 @@
     flex-direction: column;
     margin: 40px 0;
     max-width: 335px;
+    width:100%;
 }   
 
 .our-yachts .yacht-card {
     background-color: #fbfbfb;
+    border-radius: 24px;
 
     width: 100%;
     max-width: 335px;
     display: flex;
     flex-direction: column;
-    padding: 16px 16px 32px 16px;
 }
 
 
 .our-yachts .yacht-card .img-wraper {
     border-radius: 24px;
-    width: 100%;
     height: 240px;
     position: relative;
     overflow: hidden;
+    margin: 0 16px;
+    margin-top: 16px;
 }
 
 .our-yachts .yacht-card img {
@@ -46,10 +48,78 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(93%);
+}
+
+.our-yachts .card-content {
+    margin: 32px;
+    text-transform: uppercase;
+}
+
+.our-yachts .card-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.our-yachts .card-title::after {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    height: 2px;
+
+    background-color: rgba(4, 3, 6, 0.1);
+}
+
+.our-yachts .yacht-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+}
+
+.our-yachts .yacht-class {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
 }
 
 .our-yachts .yacht-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-yachts .yacht-stats ul:first-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.our-yachts .yacht-stats ul:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #040306;
+    text-transform: capitalize;
+    margin-right: 12px;
+}
+
+.our-yachts .yacht-stats ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .our-yachts .yacht-rent-btn {
