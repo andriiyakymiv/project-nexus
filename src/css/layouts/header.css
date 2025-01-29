@@ -3,20 +3,30 @@
   }
 .page-header{
     background-color: transparent;
-    margin: 20px 20px 0px 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 98;
 }
 .header-container{
     display: flex; 
+    position: fixed;
     align-items: center;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
     background-color: #FBFBFB;
     justify-content: space-between;
     width: 100%;
+    margin: 20px 20px 0 20px;
 }
 @media screen and (min-width:768px){
     .page-header{
-        margin: 32px 32px 0px 32px;
+        top: 32px;
+        left: 32px;
+        right: 32px;
     }
     .header-container{
         gap: 96px;
@@ -24,7 +34,9 @@
 }
 @media screen and (min-width:1280px){
     .page-header{
-        margin: 32px 100px 0px 100px;
+       top: 32px;
+       left: 32px;
+       right: 32px;
     }
     .header-container{
         gap: 281px;
@@ -32,7 +44,7 @@
 }
 @media screen and (min-width:1440px){
     .header-container{
-        gap: 362px;
+        gap: 375px;
     }
 }
 .header-nav{
