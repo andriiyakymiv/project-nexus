@@ -27,17 +27,17 @@
         background-repeat: no-repeat;
     }
 }
-.container{
+.hero_container{
     padding: 260px 20px 243px;
 } 
 @media screen and (min-width: 768px) {
-    .container {
+    .hero_container {
         padding: 280px 32px 215;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .hero_container {
         padding: 235px 90px 180px;
     }
 }
