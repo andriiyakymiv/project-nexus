@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" crossorigin href="/project-nexus/assets/index-DDsU4zLA.css">
+  <link rel="stylesheet" crossorigin href="/project-nexus/assets/index-JwJAdKH9.css">
 </head>
 
 <body>
@@ -107,7 +107,75 @@
     
     
     
-    
+    <section class="Rent-yacht">
+  <div class="container rent-yacht-container">
+    <div class="image-form-wrapper">
+      <picture>
+        <source
+          srcset="../img/yacht-rent-img/Desktop1440-1x.jpg 1x, ../img/yacht-rent-img/Desktop1440-2x.jpg 2x"
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="../img/yacht-rent-img/Desktop1280-1x.jpg 1x, ../img/yacht-rent-img/Desktop1280-2x.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="../img/yacht-rent-img/Tablet-1x.jpg 1x, ../img/yacht-rent-img/Tablet-2x.jpg 2x"
+          media="(min-width:768px)"
+        />
+
+        <img
+          class="yacht-rent-photo"
+          srcset="../img/yacht-rent-img/phone-screen-1x.jpg 1x, ../img/yacht-rent-img/phone-screen-2x.jpg 2x"
+          src="../img/yacht-rent-img/phone-screen-2x.jpg"
+          alt="Yacht-photo"
+        />
+      </picture>
+      <div class="form-btn-container">
+        <h2 class="rent-yacht-title">Rent a yacht now</h2>
+        <form class="rent-form">
+          <input
+            class="rent-form-field"
+            placeholder="Full Name"
+            id="user-name"
+            type="text"
+            name="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІєЄїЇґҐʼ]+"
+            required
+          />
+          <input
+            class="rent-form-field"
+            placeholder="Email"
+            id="user-email"
+            type="email"
+            name="user-email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            class="rent-form-field"
+            placeholder="Phone Number"
+            id="user-phone"
+            type="tel"
+            name="user-phone"
+            required
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+          <textarea
+            class="rent-form-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            required
+          ></textarea>
+        </form>
+        <button class="send-form-btn" type="submit">Send</button>
+      </div>
+    </div>
+  </div>
+</section>
+
     
   </main>
   <footer class="footer">
