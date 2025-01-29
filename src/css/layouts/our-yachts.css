@@ -1,0 +1,68 @@
+ .our-yachts .section-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+
+    max-width: 319px;
+}
+
+.our-yachts .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-yachts .yachts-list {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    max-width: 335px;
+}   
+
+.our-yachts .yacht-card {
+    background-color: #fbfbfb;
+
+    width: 100%;
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 32px 16px;
+}
+
+
+.our-yachts .yacht-card .img-wraper {
+    border-radius: 24px;
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-yachts .yacht-card img {
+    max-width: initial;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.our-yachts .yacht-stats {
+}
+
+.our-yachts .yacht-rent-btn {
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 14px 32px;
+    max-width: fit-content;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    display: block;
+}
