@@ -1,8 +1,6 @@
 /* =====Yacht-rent-section==== */
 /* ======mobile-styles====== */
-.rent-yacht-container {
-  padding: 40px 20px;
-}
+
 .image-form-wrapper {
   display: flex;
   flex-direction: column;
@@ -108,9 +106,6 @@
 /* ======tablet-styles====== */
 
 @media screen and (min-width: 768px) {
-  .rent-yacht-container {
-    padding: 75px 32px;
-  }
   .image-form-wrapper {
     row-gap: 100px;
     align-items: center;
@@ -148,9 +143,6 @@
 /* ======Desktop 1280px========= */
 
 @media screen and (min-width: 1280px) {
-  .rent-yacht-container {
-    padding: 75px 50px;
-  }
   .image-form-wrapper {
     flex-direction: row;
     column-gap: 50px;
