@@ -46,9 +46,11 @@
 }
 
 @media (min-width: 768px) {
+  .container-advantages {
+    padding: 0;
+  }
   .advantages {
     padding: 0;
-    padding-bottom: 150px;
   }
   .advantages-list {
     padding: 90px 32px 82px 32px;
@@ -80,7 +82,6 @@
   .advantages {
     display: flex;
     padding: 0;
-    padding-bottom: 150px;
     gap: 32px;
   }
   .advantages-list {
