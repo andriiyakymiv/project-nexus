@@ -1,14 +1,12 @@
 .hero{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), 
-    url('');
+    background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), url("./img/hero/mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 @media screen and (min-width: 768px) {
     .hero {
-        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), 
-        url('src/img/hero-backround-mobile.jpg');
+        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), url("./img/hero/tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -16,8 +14,7 @@
 
 @media screen and (min-width: 1280px) {
     .hero {
-        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), 
-        url('/src/img/hero-backround-mobile.jpg');
+        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), url("./img/hero/desktop.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -25,8 +22,7 @@
 
 @media screen and (min-width: 1440px) {
     .hero {
-        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), 
-        url('/src/img/hero-backround-mobile-png.png');
+        background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%), url("./img/hero/1440.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
