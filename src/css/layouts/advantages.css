@@ -46,9 +46,6 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    padding: 0;
-  }
   .advantages {
     padding: 0;
     padding-bottom: 150px;
