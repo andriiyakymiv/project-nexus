@@ -1,0 +1,64 @@
+.scroll__top {
+    display: block;
+    position: fixed;
+    bottom: 5%;
+    right: 6%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    z-index: 98;
+    transition: opacity 250ms ;
+    animation: slide-top 1s linear 2s infinite alternate both;
+}
+
+@media screen and (min-width: 768px) {
+    .scroll__top {
+        bottom: 5%;
+        right: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .scroll__top {
+        bottom: 5%;
+        right: 4%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .scroll__top {
+        bottom: 5%;
+        right: 3.5%;
+    }
+}
+
+
+
+.scroll__top-icon {
+    color: #FBFBFB;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.scroll__top:hover .scroll__top-icon,
+.scroll__top:focus .scroll__top-icon {
+    color: #FBFBFB;
+    filter: invert(70%);
+    -webkit-filter: invert(70%);
+    background-color: transparent;
+}
+
+.js-transparent {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+    .scroll__top-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+

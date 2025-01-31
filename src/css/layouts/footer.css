@@ -48,7 +48,7 @@
     }
 }
 
-.footer_top {
+.footer__top {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -58,7 +58,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .footer_top {
+    .footer__top {
         margin-bottom: 96px;
     }
 }
