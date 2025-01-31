@@ -1,4 +1,4 @@
-const buttonTop = document.querySelector('.scroll-to-top');
+const buttonTop = document.querySelector('.scroll__top');
 
 buttonTop.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -7,8 +7,8 @@ buttonTop.addEventListener('click', () => {
 window.onscroll = () => changeScrollButtonVisibility();
 
 function changeScrollButtonVisibility() {
-  const button = document.querySelector('.scroll-to-top');
-  const offsetTrigger = 60;
+  const button = document.querySelector('.scroll__top');
+  const offsetTrigger = 1600;
   const pageOffset = window.pageYOffset;
 
   if (pageOffset > offsetTrigger) {
