@@ -33,8 +33,6 @@
     }
 }
 
-
-
 .scroll__top-icon {
     color: #FBFBFB;
     filter: invert(100%);
@@ -51,7 +49,7 @@
 
 .js-transparent {
     opacity: 0;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 @media screen and (min-width: 768px) {
@@ -60,5 +58,3 @@
         height: 35px;
     }
 }
-
-
