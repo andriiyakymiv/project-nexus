@@ -1,0 +1,38 @@
+.scroll__top {
+    display: block;
+    position: fixed;
+    bottom: 210px;
+    right: 8%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+
+    /* transition: opacity 250ms ; */
+    /* animation: slide-top 1s linear 2s infinite alternate both; */
+}
+
+.scroll__top-icon {
+    /* transition: fill var(--time) var(--cubic), background-color var(--time) var(--cubic); */
+    fill: #111111;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+.scroll__top:hover .scroll__top-icon,
+.scroll__top:focus .scroll__top-icon {
+    fill: #ffffff;
+    background-color: transparent;
+}
+
+.js-transparent {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+    .scroll__top-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
