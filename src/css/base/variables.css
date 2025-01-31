@@ -1,0 +1,28 @@
+:root {
+    --primary-white: #FBFBFB;
+    --primary-green: #1B414B;
+    --primary-grey: #0E1823;
+    --primary-black: #040306;
+    --primary-background: #0E1823;
+    
+    --color-text: rgba(4, 3, 6, 0.4);
+    --color-text-hero-70: rgba(251, 251, 251, 0.7);
+    --color-gray-40: rgba(251, 251, 251, 0.4);
+    --color-white-gray-80: rgba(251, 251, 251, 0.8);
+    
+    --header-menu-link: rgba(27, 65, 75, 0.5);
+
+    --header-menu-hover-social-link: rgba(251, 251, 251, 0.8);
+    --color-lines: #fbfbfb1a;
+
+    --line-color: rgba(4, 3, 6, 0.1);
+    --border-color: rgba(251, 251, 251, 0.35);
+    --input-border: rgba(251, 251, 251, 0.2);
+    --input-border-focus: rgba(251, 251, 251, 0.5);
+
+    --footer-social-hover: rgba(251, 251, 251, 0.3);
+
+    --time: 400ms;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
