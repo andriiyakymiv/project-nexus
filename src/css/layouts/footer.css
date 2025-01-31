@@ -17,7 +17,7 @@
 
 .footer__wrapper {
     border-radius: 24px 24px 0 0;
-    background: #1B414B;
+    background: var(--primary-green);
     padding: 40px 30px 20px;
 }
 
@@ -39,7 +39,7 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.03em;
-    color: #fbfbfb;
+    color: var(--primary-white);
 }
 
 @media screen and (min-width: 768px) {
@@ -78,22 +78,22 @@
     width: 66px;
     height: 40px;
     border-radius: 8px;
-    background: rgba(251, 251, 251, 0.3);
+    background: var(--footer-social-hover);
 
     font-weight: 400;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
     text-align: center;
-    color: #fbfbfb;
-    transition: color .2s cubic-bezier(.4, 0, .2, 1),
-    background-color .25s cubic-bezier(.4, 0, .2, 1);
+    color: var(--primary-white);
+    transition: color .2s --cubic,
+    background-color --time --cubic;
 }
 
 .footer__nav-link:hover,
 .footer__nav-link:focus {
-    background-color: #FBFBFB;
-    color: #1B414B;
+    background-color: var(--primary-white);
+    color: var(--primary-green);
 }
 
 
@@ -103,7 +103,6 @@
     }
 }
 
-
 .footer__social-list {
     order: 3;
     display: flex;
@@ -112,18 +111,15 @@
 }
 
 .footer__social-item-link {
-    fill: #fbfbfb;
-    transition: fill .25s cubic-bezier(.4, 0, .2, 1);
+    fill: var(--primary-white);
+    transition: fill .25s --cubic;
 }
 
 
 .footer__social-item-link:hover,
 .footer__social-item-link:focus {
-    fill: rgba(251, 251, 251, .3);
+    fill: var(--footer-social-hover);
 }
-
-
-
 
 .footer__middle {
     display: flex;
@@ -144,7 +140,7 @@
     line-height: 1.0;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #fbfbfb;
+    color: var(--primary-white);
 }
 
 @media screen and (min-width: 768px) {
@@ -172,7 +168,7 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    color: rgba(251, 251, 251, 0.4);
+    color: var(--color-gray-40);
 }
 
 .footer__bottom-link {
@@ -180,10 +176,10 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    color: rgba(251, 251, 251, 0.4);
+    color: var(--color-gray-40);
 }
 
 .footer__bottom-link:hover,
 .footer__bottom-link:focus {
-    color: #fbfbfb;
+    color: var(--primary-white);
 }

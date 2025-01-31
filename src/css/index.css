@@ -2,6 +2,7 @@
 @import url('./base/global.css');
 @import url('./base/common.css');
 @import url('./base/container.css');
+@import url('./base/variables.css');
 
 @import url('./layouts/header.css');
 @import url('./layouts/hero.css');
