@@ -215,6 +215,14 @@
     .our-yachts .yachts-list {
         gap: 24px;
     }
+
+    .our-yachts .yacht-card {
+        transition: transform 400ms ease-in-out;
+    }
+
+    .our-yachts .yacht-card:hover {
+        transform: scale(110%) translateY(5%);
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -223,6 +231,6 @@
     }
 
     .our-yachts .container {
-        padding: 0 50px;
+        padding: 0 100px;
     }
 }
