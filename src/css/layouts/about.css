@@ -4,7 +4,7 @@
 
 .about-us {
   padding-top: 0;
-  margin-top: -64px;
+  margin-top: -59px;
 }
 
 .about-us-container {
@@ -59,6 +59,10 @@
     max-width: 704px;
   }
 
+  .about-us {
+    margin-top: -67px;
+  }
+
   .about-us-wrapper {
     padding: 50px 32px 0 32px;
   }
@@ -89,6 +93,10 @@
 @media screen and (min-width: 1280px) {
   .about-us-container {
     max-width: 1180px;
+  }
+
+  .about-us {
+    margin-top: -35px;
   }
 
   .about-us-wrapper {
