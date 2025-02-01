@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 1280px) {
     .hero_container {
-        padding: 235px 90px 180px;
+        padding: 235px 140px 215px;
     }
 }
 .hero_title_container{
@@ -76,6 +76,7 @@
 @media screen and (min-width: 768px) {
     .hero_title {
         font-size: 70px;
+        max-width: 1001px;
     }
 }
 
