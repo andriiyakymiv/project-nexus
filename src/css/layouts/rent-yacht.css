@@ -55,6 +55,7 @@
   color: rgba(251, 251, 251, 0.4);
 }
 .rent-form-comment {
+  resize: none;
   outline: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
@@ -170,3 +171,45 @@
 }
 /*============ Desktop 1440px end========== */
 /* =====Yacht-rent-section-end==== */
+
+/*============ Tooltips for phone ========== */
+
+.tooltip-tel {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-tel .tooltip-tel-text {
+  visibility: hidden;
+  width: 220px;
+  background-color: #fbfbfb;
+  color: #1B414B;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-tel .tooltip-tel-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(251, 251, 251, 0.9) 
+    transparent transparent transparent;
+}
+
+.tooltip-tel:hover .tooltip-tel-text {
+  visibility: visible;
+  opacity: 1;
+}
