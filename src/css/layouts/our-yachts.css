@@ -95,7 +95,7 @@
     justify-content: space-between;
 }
 
-.our-yachts .yacht-stats ul:first-child {
+.our-yachts .yacht-stats li:first-child {
     font-weight: 400;
     font-size: 14px;
     line-height: 118%;
@@ -104,7 +104,7 @@
     opacity: 0.4;
 }
 
-.our-yachts .yacht-stats ul:last-child {
+.our-yachts .yacht-stats li:last-child {
     font-weight: 400;
     font-size: 14px;
     line-height: 118%;
@@ -114,7 +114,7 @@
     margin-right: 12px;
 }
 
-.our-yachts .yacht-stats ul {
+.our-yachts .yacht-stats li {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -170,7 +170,7 @@
         display: inherit;
     }
 
-    .our-yachts .yacht-card:first-child .yacht-stats ul:last-child {
+    .our-yachts .yacht-card:first-child .yacht-stats li:last-child {
         margin-right: 18px;
     }
 
