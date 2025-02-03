@@ -18,19 +18,19 @@
         <img class="yacht-rent-photo" srcset="
             ./img/yacht-rent-img/phone-screen-1x.jpg 1x,
             ./img/yacht-rent-img/phone-screen-2x.jpg 2x
-          " src="./img/yacht-rent-img/phone-screen-2x.jpg" alt="Luxury modern yacht with glowing underwater lights" />
+          " src="./img/yacht-rent-img/phone-screen-2x.jpg" alt="Luxury modern yacht" />
       </picture>
       <div class="form-btn-container">
         <h2 class="rent-yacht-title">Rent a yacht now</h2>
         <form class="rent-form">
           <label class="rent-label" for="user-name">
-            <input class="rent-form-field" name="user-name" type="text" type="text"
+            <input class="rent-form-field" name="user-name" type="text"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name" id="user-name"
               minlength="2" required />
           </label>
           <label class="rent-label" for="user-email">
             <input class="rent-form-field" name="user-email" type="email" placeholder="Email" id="user-email"
-              required />
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
           </label>
           <div class="tooltip-tel">
             <label class="rent-label" for="user-phone">

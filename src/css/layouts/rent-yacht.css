@@ -113,7 +113,7 @@
   }
   .rent-yacht-title {
     font-size: 48px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .yacht-rent-photo {
     border-radius: 24px;
@@ -136,7 +136,7 @@
     padding: 18px 75px;
     max-width: 194px;
     height: 56px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 }
 /* ======tablet-styles-end====== */
