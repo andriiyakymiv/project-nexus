@@ -221,7 +221,7 @@
     }
 
     .our-yachts .yacht-card:hover {
-        transform: scale(110%) translateY(5%);
+        transform: scale(108%) translateY(4%);
     }
 }
 
