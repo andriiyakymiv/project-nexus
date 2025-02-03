@@ -1,14 +1,21 @@
 .hero{
     /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
-    background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), url(/img/hero/hero_mobile_yacht.jpg);
+    background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), 
+    image-set(
+        url(/img/hero/hero_mobile_yacht.jpg) 1x,
+        url(/img/hero/hero_mobile_yacht_2x.jpg) 2x
+    );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
 }
 @media screen and (min-width: 768px) {
     .hero {
-        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), url(/img/hero/hero_tablet_yacht.jpg);
+        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), 
+        image-set(
+        url(/img/hero/hero_tablet_yacht.jpg) 1x,
+        url(/img/hero/hero_tablet_yacht_2x.jpg) 2x
+    );
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -16,7 +23,11 @@
 
 @media screen and (min-width: 1280px) {
     .hero {
-        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), url(/img/hero/hero_desktop_yacht.jpg);
+        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), 
+        image-set(
+        url(/img/hero/hero_desktop_yacht.jpg) 1x,
+        url(/img/hero/hero_desktop_yacht_2x.jpg) 2x
+    );
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -25,9 +36,14 @@
 
 @media screen and (min-width: 1440px) {
     .hero {
-        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), url(/img/hero/hero_1400_yacht.jpg);
+        background: linear-gradient(360deg, #0e1823 1%, rgba(17, 19, 31, 1) 14%, rgba(17, 19, 31, 0.39) 75%, rgba(17, 19, 31, 0) 98%), 
+        image-set(
+        url(/img/hero/hero_1440_yacht.jpg) 1x,
+        url(/img/hero/hero_1440_yacht_2x.jpg) 2x
+    );
         background-size: cover;
         background-repeat: no-repeat;
+        max-width: 1440px;
     }
 }
 .hero_container{
