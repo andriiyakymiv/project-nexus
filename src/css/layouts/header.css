@@ -113,6 +113,10 @@
 .socials-icon{
     fill: #1B414B;
 }
+.socials-icon:focus,
+.socials-icon:hover{
+    fill: #062730;
+}
 .logo-header{
     letter-spacing: -0.03em;
     color: #1b414b;
