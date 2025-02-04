@@ -351,40 +351,84 @@
   <div class="container rent-yacht-container">
     <div class="image-form-wrapper">
       <picture>
-        <source srcset="/project-nexus/assets/Desktop1440-1x-C5IBpmn6.jpg 1x, /project-nexus/assets/Desktop1440-2x-1TUH6Oly.jpg 2x" media="(min-width:1440px)" />
-        <source srcset="/project-nexus/assets/Desktop1280-1x-B3nEVPlj.jpg 1x, /project-nexus/assets/Desktop1280-2x-DV_FoZBN.jpg 2x" media="(min-width:1280px)" />
-        <source srcset="/project-nexus/assets/Tablet-1x-Yit58WRl.jpg 1x, /project-nexus/assets/Tablet-2x-CiR6HDYy.jpg 2x" media="(min-width:768px)" />
+        <source
+          srcset="/project-nexus/assets/Desktop1440-1x-DSaThbDS.jpg 1x, /project-nexus/assets/Desktop1440-2x-DPbFHVIM.jpg 2x"
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="/project-nexus/assets/Desktop1280-1x-yeRdYINK.jpg 1x, /project-nexus/assets/Desktop1280-2x-Cj6z-OVk.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/project-nexus/assets/Tablet-1x-CT7hXfTx.jpg 1x, /project-nexus/assets/Tablet-2x-sTeiqSjN.jpg 2x"
+          media="(min-width:768px)"
+        />
 
-        <img class="yacht-rent-photo" srcset="/project-nexus/assets/phone-screen-1x-UhNemV7n.jpg 1x, /project-nexus/assets/phone-screen-2x-CZhx3J7F.jpg 2x" src="/project-nexus/assets/phone-screen-2x-CZhx3J7F.jpg" alt="Luxury modern yacht" />
+        <img
+          class="yacht-rent-photo"
+          srcset="/project-nexus/assets/phone-screen-1x-p8eeRzde.jpg 1x, /project-nexus/assets/phone-screen-2x-eF2sqAO3.jpg 2x"
+          src="/project-nexus/assets/phone-screen-2x-eF2sqAO3.jpg"
+          alt="Luxury modern yacht"
+          loading="lazy"
+        />
       </picture>
       <div class="form-btn-container">
         <h2 class="rent-yacht-title">Rent a yacht now</h2>
         <form class="rent-form">
           <label class="rent-label" for="user-name">
-            <input class="rent-form-field" name="user-name" type="text"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name" id="user-name"
-              minlength="2" required />
+            <input
+              class="rent-form-field"
+              name="user-name"
+              type="text"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              placeholder="Full Name"
+              id="user-name"
+              minlength="2"
+              required
+            />
           </label>
           <label class="rent-label" for="user-email">
-            <input class="rent-form-field" name="user-email" type="email" placeholder="Email" id="user-email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
+            <input
+              class="rent-form-field"
+              name="user-email"
+              type="email"
+              placeholder="Email"
+              id="user-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
           </label>
           <div class="tooltip-tel">
             <label class="rent-label" for="user-phone">
-              <input class="rent-form-field" type="tel" placeholder="Phone Number" id="user-phone" name="user-phone"
+              <input
+                class="rent-form-field"
+                type="tel"
+                placeholder="Phone Number"
+                id="user-phone"
+                name="user-phone"
                 pattern="^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$"
-                minlength="12" required />
+                minlength="12"
+                required
+              />
             </label>
-            <span class="tooltip-tel-text">Please use the format +381234567890</span>
+            <span class="tooltip-tel-text"
+              >Please use the format +381234567890</span
+            >
           </div>
-          <textarea class="rent-form-comment" name="user-comment" id="user-comment" placeholder="Comment"
-            required></textarea>
+          <textarea
+            class="rent-form-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            required
+          ></textarea>
           <button class="send-form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
   </div>
 </section>
+
     <section id="reviews" class="reviews">
   <div class="container">
     <h2 class="reviews-tittle">YachtJet take pride in providing the best possible service and experience to our customers </h2>
