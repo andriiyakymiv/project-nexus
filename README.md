@@ -1,4 +1,137 @@
-# Vanilla App Template
+# YachtJet Website — Team Project GoIT
+
+---
+
+## Project Description
+
+**[This project](https://andriiyakymiv.github.io/project-nexus/) was created as
+part of the [GoIT](https://goit.global/ua/) curriculum as the final project of
+the HTML/CSS module. Our task was to create a website for a company specializing
+in renting luxury premium yachts. The project was developed based on the
+provided layout, adhering to modern web development standards.**
+
+## Team
+
+**Team Lead** — [Andri Yakymiv](https://github.com/andriiyakymiv)
+
+**Scrum Master and Developer** —
+[Vladislav Mashirov](https://github.com/FoUndY121)
+
+**Developer** — [Eduard Prudyus](https://github.com/llDeRuNll)
+
+**Developer** — [Nastassya Dragun](https://github.com/nas-tassia)
+
+**Developer** — [Yaroslav Yakubovsky](https://github.com/shopogolikraj)
+
+**Developer** — [Mykyta Glyadyaev](https://github.com/w0lfram00)
+
+**Developer** — [Nikita Naskalnyi](https://github.com/Nikita-Naskalnyi)
+
+**Developer** — [Halyna Moldovianu](https://github.com/MoldovianuHalyna)
+
+### Project Goal
+
+To create a website that allows customers to easily find, browse and book yachts
+for unforgettable sea voyages. The site is user-friendly and creates an
+atmosphere of luxury and adventure through an attractive design and
+user-friendly interface.
+
+### Main sections of the site
+
+**Homepage** — contains a call to action, attractive images of yachts and
+seascapes.
+
+**Header** -
+
+**Hero** -
+
+**About the company** — information about the brand and its mission.
+
+**Yachts** — a detailed catalog with vessel characteristics.
+
+**Reviews** — a section with customer comments.
+
+**Advantages** — reasons to choose this particular company.
+
+**Yacht rental** — functionality for booking a yacht.
+
+**Footer** -
+
+### Solutions to the main problems
+
+1. Difficulty in searching and booking.
+
+   - **Convenient online service for quick selection and booking of a yacht.**
+
+2. Lack of information about yachts
+
+   - **Detailed description of characteristics, capacity and cost.**
+
+3. Lack of a centralized platform
+
+   - Single website with catalog, prices and booking option.
+
+4. Low mobility and accessibility
+
+   - Adaptive design for correct display on different devices.
+
+5. Lack of feedback
+
+   - Feedback form for quick responses.
+
+## Technologies
+
+| ![Web Page](./assets/readme-tech-html.png) |
+![Web Page](./assets/readme-tech-css.png) |
+![Web Page](./assets/readme-tech-js.png) |
+![Web Page](./assets/readme-tech-node.png) |
+![Web Page](./assets/readme-tech-vs.png) |
+![Web Page](./assets/readme-tech-figma.png) |
+![Web Page](./assets/readme-tech-git.png) |
+![Web Page](./assets/readme-tech-github.png) |
+![Web Page](./assets/readme-tech-vite.png) |
+![Web Page](./assets/readme-tech-trello.png) |
+
+## Adaptive layout
+
+**The layout is designed with adaptability for different devices without a
+separate mobile version:**
+
+- Mobile — from 320px, adaptation from 375px.
+
+- Tablet — adaptation from 768px.
+
+- Desktop — adaptation from 1280px, support for 1440px.
+
+## Semantic HTML structure
+
+Use of semantic HTML5 tags (header, nav, main, article, section, footer).
+
+Accessibility ensured (aria-labels, alt, correct structure of headings).
+
+Optimization for SEO and UX.
+
+## Graphics optimization
+
+Raster images (JPG, PNG): size reduction without loss of quality, lazy loading.
+
+Vector graphics (SVG): code optimization, use of SVG sprites.
+
+Retina screen support: high-resolution images (@2x), flexible scaling.
+
+## Fonts
+
+Connected via Google Fonts.
+
+Optimized for fast loading.
+
+System fonts were used as a fallback.
+
+--This project was a great experience for our team, allowing us to hone our
+development skills and create a modern, functional website that will help
+customers easily rent premium yachts.
+
+## Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
 додаткових можливостей [звернись до документації](https://vitejs.dev/).
